@@ -1,0 +1,21 @@
+# 1. Ignore everything by default
+*
+
+# 2. Allow directories so we can see files inside them
+!*/
+
+# 3. Explicitly allow the files you want to keep
+!*.c
+!*.h
+!*.txt
+!README.md
+!.gitignore
+
+# 4. Specifically ignore macOS system files (even if allowed above)
+**/.DS_Store
+.DS_Store?
+
+# 5. Specifically ignore object files and compiled binaries
+*.o
+*.obj
+*.out
