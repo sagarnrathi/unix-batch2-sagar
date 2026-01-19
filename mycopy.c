@@ -88,9 +88,9 @@ int main(int argc, char* argv[]) {
    * 0x is a prefix to define hexadecimal numbers
    *
    *
+   * 4 read
+   * 2 write
    * 1 execute
-   * 2 read
-   * 4 write
    *
    * */
   fdnew = creat(argv[2], 0666);
